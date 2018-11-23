@@ -1,0 +1,146 @@
+			/*Reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+			/*General style*/
+			/*width 1920 height 4348*/
+body{
+	background-color: rgb(255,255,255);
+}
+.general{
+	width: 100%;
+	height: 226.458333333vw;
+}
+
+			/*Header style*/
+.header{
+	width: 100%;
+	height: 2.9%;
+}
+
+			/*Body style*/
+.content1{
+	width: 100%;
+	height: 21%;
+	background-color: rgb(49, 107, 109);
+	/*position:relative*/
+}
+
+.content2{
+	width: 100%;
+	height: 17.4%;
+}
+.content3{
+	width: 100%;
+	height: 14.1%;
+	background-color: rgb(239, 238, 238);
+}
+.content4{
+	width: 100%;
+	height: 27.1%;
+}
+.content5{
+	width: 100%;
+	height: 17.5%;
+	background-color: rgb(239, 238, 238);
+}
+.dao {
+  font-size: 95%;
+  font-family: "UTMAvoBold";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.59;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  -moz-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
+  -webkit-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
+  -ms-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
+  position: absolute;
+  left: 48.0467708333%;
+  top: 52.4052656941%;
+  z-index: 190;
+}
+ .lorem {
+  font-size: 97.7875%;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.727;
+  text-align: center;
+  -moz-transform: matrix( 1.40556368960469,0,0,1.40615384615385,0,0);
+  -webkit-transform: matrix( 1.40556368960469,0,0,1.40615384615385,0,0);
+  -ms-transform: matrix( 1.40556368960469,0,0,1.40615384615385,0,0);
+  position: absolute;
+  left: 30.7199479167%;
+  top: 64.4615300546%;
+  z-index: 189;
+}
+.bg {
+  border-radius: 5px;
+  background-color: rgb(89, 196, 90);
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  left: 42.6041666667%;
+  top: 84.76803785%;
+  width: 14.84375%;
+  height: 7.66636001227%;
+  z-index: 192;
+}
+
+.Đảo_Cát_Bà_ {
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.59;
+  text-align: center;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  -moz-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
+  -webkit-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
+  -ms-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
+  position: absolute;
+  left: 923.998px;
+  top: 483.502px;
+  z-index: 190;
+}
+
