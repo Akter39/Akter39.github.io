@@ -52,40 +52,93 @@ body{
 	height: 226.458333333vw;
 }
 
-			/*Header style*/
+			/*template*/
 .header{
 	width: 100%;
-	height: 2.9%;
+	height: 6.51041666667vw;/*125px*/
+	position:relative;
 }
-
-			/*Body style*/
 .content1{
 	width: 100%;
-	height: 21%;
+	height: 47.65625vw;/*915px*/
 	background-color: rgb(49, 107, 109);
-	/*position:relative*/
+	position:relative;
 }
-
 .content2{
 	width: 100%;
-	height: 17.4%;
+	height: 39.4270833333vw;/*757px*/
 }
 .content3{
 	width: 100%;
-	height: 14.1%;
+	height: 31.9791666667vw;/*614px*/
 	background-color: rgb(239, 238, 238);
 }
 .content4{
 	width: 100%;
-	height: 27.1%;
+	height: 61.25vw;/*1176px*/
 }
 .content5{
 	width: 100%;
-	height: 17.5%;
+	height: 39.6354166667vw;/*761px*/
 	background-color: rgb(239, 238, 238);
 }
+
+			/*header*/
+.discover {
+  font-size: 0.83333333333vw;
+  font-family: "Times New Roman";
+  color: rgb(89, 196, 90);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 1.75292852696508,0,0,1.73913089148877,0,0);
+  -webkit-transform: matrix( 1.75292852696508,0,0,1.73913089148877,0,0);
+  -ms-transform: matrix( 1.75292852696508,0,0,1.73913089148877,0,0);
+  position: absolute;
+  left: 21.8774479167vw;
+  top: 2.44270833333vw;
+  z-index: 204;
+}
+.rectangle {
+  border-width: 0.10416666666vw;
+  border-color: rgb(183, 183, 183);
+  border-style: solid;
+  position: absolute;
+  left: 19.53125vw;
+  top: 1.77083333333vw;
+  width: 9.16666666667vw;
+  height: 2.44791666667vw;
+  z-index: 203;
+}
+.travel {
+  font-size: 0.9375vw;
+  font-family: "Times New Roman";
+  color: rgb(89, 196, 90);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 22.2395833333vw;
+  top: 3.86458333333vw;
+  z-index: 206;
+}
+.rectangle2 {
+  border-width: 0.67708333333vw;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  position: absolute;
+  left: 21.7708333333vw;
+  top: 3.86458333333vw;
+  width: 3.14166666667vw;
+  height: 1.19791666667vw;
+  z-index: 205;
+}
+
+
+			/*content1*/
 .dao {
-  font-size: 95%;
+  font-size: 0.78125vw;
   font-family: "UTMAvoBold";
   color: rgb(255, 255, 255);
   text-transform: uppercase;
@@ -97,12 +150,12 @@ body{
   -webkit-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
   -ms-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
   position: absolute;
-  left: 48.0467708333%;
-  top: 52.4052656941%;
+  left: 48.1248958333vw;
+  top: 18.6719791667vw;
   z-index: 190;
 }
  .lorem {
-  font-size: 97.7875%;
+  font-size: 0.81489583333vw;
   font-family: "Arial";
   color: rgb(255, 255, 255);
   line-height: 1.727;
@@ -111,36 +164,35 @@ body{
   -webkit-transform: matrix( 1.40556368960469,0,0,1.40615384615385,0,0);
   -ms-transform: matrix( 1.40556368960469,0,0,1.40615384615385,0,0);
   position: absolute;
-  left: 30.7199479167%;
-  top: 64.4615300546%;
+  left: 23.2291666667vw;
+  top: 23.8541666667vw;
+  width: 53.6458333333vw;
+  height: 4.89583333333vw;
   z-index: 189;
 }
 .bg {
-  border-radius: 5px;
+  border-radius: 0.26041666666vw;
   background-color: rgb(89, 196, 90);
   box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.35);
   position: absolute;
-  left: 42.6041666667%;
-  top: 84.76803785%;
-  width: 14.84375%;
-  height: 7.66636001227%;
+  left: 42.6041666667vw;
+  top: 33.8541666667vw;
+  width: 14.8958333333vw;
+  height: 3.69791666667vw;
   z-index: 192;
 }
-
-.Đảo_Cát_Bà_ {
-  font-size: 15px;
-  font-family: "Myriad Pro";
+.booking_tour {
+  font-size: 0.96302083333vw;
+  font-family: "Lato";
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  line-height: 1.59;
+  line-height: 1.298;
   text-align: center;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-  -moz-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
-  -webkit-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
-  -ms-transform: matrix( 4.4658763386821,0,0,4.50572992439126,0,0);
+  -moz-transform: matrix( 1.40556368960469,0,0,1.40615384615385,0,0);
+  -webkit-transform: matrix( 1.40556368960469,0,0,1.40615384615385,0,0);
+  -ms-transform: matrix( 1.40556368960469,0,0,1.40615384615385,0,0);
   position: absolute;
-  left: 923.998px;
-  top: 483.502px;
-  z-index: 190;
+  left: 4.24348958333vw;
+  top: 1.40625vw;
+  z-index: 193;
 }
-
